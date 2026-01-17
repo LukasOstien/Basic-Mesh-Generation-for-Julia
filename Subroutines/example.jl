@@ -1,11 +1,9 @@
 using Plots
 include("squaremesh.jl")
-include("assembling.jl")
 include("uniformrefine.jl")
 include("displayMesh.jl")
 include("circlemesh.jl")
 include("enforceGeometry.jl")
-include("debugMesh.jl")
 
 node,elem = squaremesh([0,1,0,1],0.25);
 cnode,celem = circlemesh(0,0,1,0.25);
