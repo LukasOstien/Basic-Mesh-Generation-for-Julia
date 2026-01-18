@@ -1,5 +1,6 @@
 using Plots
 function displayMesh(node,elem)
+    # Plot Nodes and Elements. 
     p = plot(size=(800, 600), aspect_ratio=:equal, legend=false)
     
     # Plot triangles
