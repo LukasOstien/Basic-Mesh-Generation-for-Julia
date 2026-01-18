@@ -1,7 +1,7 @@
 include("uniqueElems.jl")
 using StatsBase
 function uniformrefine(node,elem)
-    
+    # Divide each triangular element into four smaller triangles. Update node and element arrays to include newly added nodes and elements.
 
     # Construct Data Structure
     edgeshold = vcat(elem[:, [2,3]],elem[:, [3,1]],elem[:, [1,2]]);
