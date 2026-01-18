@@ -1,4 +1,5 @@
 function findBoundary(elem)
+    # Locate nodes on the boundary of the shape.
     # Count edge occurrences
     edge_count = Dict{Tuple{Int,Int},Int}()
     
